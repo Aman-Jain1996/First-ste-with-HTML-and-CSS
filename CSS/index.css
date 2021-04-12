@@ -1,0 +1,42 @@
+:root{
+    --primary-color : #CF74F9 ;
+}
+
+.navigation-bar{
+    background-color:var(--primary-color);
+    border-radius: 0rem 0rem 1rem 1rem;
+    padding: 1rem;
+    display: block;
+}
+
+.navigation-header >a{
+    color:bisque;
+    font-weight :bold ;
+    text-decoration: none;
+}
+
+.ul-list{
+    list-style-type: none;
+    text-align: right;
+}
+
+.ul-list li{
+    display:inline;
+    padding: 0rem 0.5rem;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0rem 1rem;
+}
+
+.link-active{
+    font-weight: bolder;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding : 3rem 1rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+
+}
